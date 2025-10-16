@@ -1,0 +1,47 @@
+# ===== macOS =====
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Arquivos criados ao montar volumes externos
+.Spotlight-V100
+.Trashes
+.VolumeIcon.icns
+
+# Diretório de metadados do macOS (ao zipar pastas)
+__MACOSX/
+
+# Arquivos de thumbnail do Finder
+._*
+
+# Arquivos temporários
+.fseventsd
+.TemporaryItems
+.apdisk
+
+# ===== Outras boas práticas gerais =====
+# Logs
+*.log
+
+# Arquivos de backup
+*~
+*.swp
+*.swo
+
+# Arquivos do sistema
+ehthumbs.db
+Thumbs.db
+
+# ===== Node (caso use) =====
+node_modules/
+
+# ===== Python (caso use) =====
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+.venv/
+.env/
+venv/
+
